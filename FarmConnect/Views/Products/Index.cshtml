@@ -55,7 +55,7 @@
                 @Html.DisplayFor(modelItem => item.Count)
             </td>
             <td>
-                <img src="@Url.Content(item.ImageURL)" alt="" style="width:180px; height: 180px" />
+                @Html.DisplayFor(modelItem => item.ImageURL)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Category.Name)
